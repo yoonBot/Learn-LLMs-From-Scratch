@@ -1,3 +1,5 @@
+<div align="center">
+
 # Learn LLMs From Scratch
 
 <div align="center">
