@@ -1,4 +1,4 @@
-![main image](<img width="699" height="521" alt="4n5eapm930d2cem9e9f3" src="https://github.com/user-attachments/assets/e63c8acd-bd84-4585-88eb-5ef60c161d62" />)
+![main image](<img width="699" height="521" alt="Image" src="https://github.com/user-attachments/assets/5060b159-621a-44f2-8a73-a85264a1987e" />)
 
 <div align="center">
 
