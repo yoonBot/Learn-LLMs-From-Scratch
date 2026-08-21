@@ -22,6 +22,6 @@ Eventually, I will also upload past research papers and my implementations based
   - [2.1 Mathematics](#mathematics)
   - [2.2 Python](#python)
   - [2.3 Machine Learning](#machine-learning)
-  - [2.4. Deep Learning](#deep-learning)
+  - [2.4 Deep Learning](#deep-learning)
   - [2.5 Natural Language Processing](#natural-language-processing)
 - [3. Research Paper Implementations]
