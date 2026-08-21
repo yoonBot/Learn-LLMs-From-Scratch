@@ -10,6 +10,7 @@
 </div>
 I am a computer science student who just began studying prerequisites for learning LLMs. Here, I record my journey that takes me from learning Calculus and Linear Algebra Prequisites to implementing research papers and journals that inspired LLM principals, then finally implementing research papers that inspired front-tier LLMs. 
 
+
 I will upload every form of resource... from textbooks to colab notebooks. 
 
 Eventually, I will also upload past research papers and my implementations based upon from them.
