@@ -102,48 +102,70 @@ Phase 4 — Research
 
 ## Progress
 
-### Phase 1 — Foundations
+### 🟢 Phase 1 — Foundations
 
 #### Mathematics
 
-- [ ] Calculus
-- [ ] Linear Algebra
-- [ ] Probability & Statistics
-- [ ] Mathematics for Machine Learning
-- [ ] Information Theory
-- [ ] Numerical Linear Algebra
-- [ ] Matrix Calculus
-- [ ] Convex Optimization
+| Topic | Status |
+|-------|:------:|
+| Calculus | ✅ Completed |
+| Linear Algebra | 🟡 In Progress |
+| Probability & Statistics | ⬜ Planned |
+| Mathematics for Machine Learning | ⬜ Planned |
+| Information Theory | ⬜ Planned |
+| Numerical Linear Algebra | ⬜ Planned |
+| Matrix Calculus | ⬜ Planned |
+| Convex Optimization | ⬜ Planned |
 
 #### Programming
 
-- [ ] Python
-- [ ] Scientific Python
-- [ ] NumPy
-- [ ] Pandas
-- [ ] Matplotlib
-- [ ] PyTorch
+| Topic | Status |
+|-------|:------:|
+| Python | 🟡 In Progress |
+| Scientific Python | ⬜ Planned |
+| NumPy | ⬜ Planned |
+| Pandas | ⬜ Planned |
+| Matplotlib | ⬜ Planned |
+| PyTorch | ⬜ Planned |
 
-### Phase 2 — AI Fundamentals
+---
 
-- [ ] Machine Learning
-- [ ] Deep Learning
-- [ ] Natural Language Processing
+### 🟡 Phase 2 — AI Fundamentals
 
-### Phase 3 — Large Language Models
+| Topic | Status |
+|-------|:------:|
+| Machine Learning | ⬜ Planned |
+| Deep Learning | ⬜ Planned |
+| Natural Language Processing | ⬜ Planned |
 
-- [ ] Transformer Fundamentals
-- [ ] GPT Architecture
-- [ ] Llama Architecture
-- [ ] Fine-Tuning
-- [ ] Inference & Decoding
+---
 
-### Phase 4 — Research
+### 🔵 Phase 3 — Large Language Models
 
-- [ ] Read influential papers
-- [ ] Reproduce published experiments
-- [ ] Implement papers from scratch
-- [ ] Develop original research ideas
+| Topic | Status |
+|-------|:------:|
+| Transformer Fundamentals | ⬜ Planned |
+| GPT Architecture | ⬜ Planned |
+| Llama Architecture | ⬜ Planned |
+| Fine-Tuning | ⬜ Planned |
+| Inference & Decoding | ⬜ Planned |
+
+---
+
+### 🧪 Phase 4 — Research
+
+| Goal | Status |
+|------|:------:|
+| Read Influential Papers | ⬜ Planned |
+| Reproduce Published Experiments | ⬜ Planned |
+| Implement Papers from Scratch | ⬜ Planned |
+| Develop Original Research | ⬜ Planned |
+
+> **Legend**
+>
+> - ✅ Completed
+> - 🟡 In Progress
+> - ⬜ Planned
 
 ---
 
