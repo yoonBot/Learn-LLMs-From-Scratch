@@ -2,314 +2,99 @@
 
 # Learn LLMs From Scratch
 
-</div>
+### Build Modern Large Language Models from First Principles
 
-<div align="center">
+A comprehensive educational repository for understanding, implementing, and reproducing modern Large Language Models from scratch.
 
-### 🚧 Currently Under Active Development
-
-**Computer Science Student | Aspiring AI Researcher**
-
-This repository documents my journey toward understanding, implementing, and reproducing modern Large Language Models (LLMs) from first principles.
-
-🌐 **GitHub:** https://github.com/yoonbot
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-Latest-red)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 </div>
 
 ---
 
-# About This Repository
+# Overview
 
-This repository is a long-term learning project that documents my journey from the mathematical foundations of artificial intelligence to implementing and reproducing state-of-the-art Large Language Models.
+This repository provides a structured path for learning how modern Large Language Models (LLMs) work, from mathematical foundations to implementing state-of-the-art architectures.
 
-Rather than treating LLMs as black boxes, my goal is to understand every layer of the stack—from calculus and linear algebra to transformers, optimization, and modern research papers.
+Rather than treating LLMs as black boxes, every component is built from first principles and explained with mathematical derivations, PyTorch implementations, and research paper references.
 
-Everything I learn is documented here through notes, implementations, experiments, and reproducible projects.
-
----
-
-# What You'll Find
-
-This repository will gradually include:
-
-- 📚 Textbook notes and study summaries
-- 🧮 Mathematics for Machine Learning
-- 🐍 Python & Scientific Python
-- 🔥 PyTorch tutorials and implementations
-- 📓 Jupyter / Google Colab notebooks
-- 📝 Research paper notes
-- 📐 Mathematical derivations
-- ⚙️ Research paper implementations
-- 🤖 LLM implementations from scratch
-- 🔬 Experiment reproductions
-- 📈 Personal AI projects
+The ultimate goal is to bridge the gap between textbooks, research papers, and real-world implementations.
 
 ---
 
-# Roadmap
+# What You'll Learn
 
-This repository follows a structured roadmap that progresses from mathematical foundations to AI research.
+This repository covers:
 
-```text
-Phase 1 — Foundations
-│
-├── Mathematics
-│   ├── Calculus
-│   ├── Linear Algebra
-│   ├── Probability & Statistics
-│   ├── Mathematics for Machine Learning
-│   ├── Information Theory
-│   ├── Numerical Linear Algebra
-│   ├── Matrix Calculus
-│   └── Convex Optimization
-│
-├── Programming
-│   ├── Python
-│   ├── Scientific Python
-│   ├── NumPy
-│   ├── Pandas
-│   ├── Matplotlib
-│   └── PyTorch
-│
-▼
-Phase 2 — AI Fundamentals
-│
-├── Machine Learning
-├── Deep Learning
-└── Natural Language Processing
-│
-▼
-Phase 3 — Large Language Models
-│
-├── Tokenization
-├── Embeddings
-├── Attention
-├── Transformers
-├── GPT
-├── Llama
-├── Fine-Tuning
-└── Inference
-│
-▼
-Phase 4 — Research
-│
-├── Read Research Papers
-├── Understand Mathematical Derivations
-├── Reproduce Published Results
-├── Implement Papers From Scratch
-└── Develop Original Research
-```
-
-## Progress
-
-### 🟢 Phase 1 — Foundations
-
-#### Mathematics
-
-| Topic | Status |
-|-------|:------:|
-| Calculus | ✅ Completed |
-| Linear Algebra | 🟡 In Progress |
-| Probability & Statistics | ⬜ Planned |
-| Mathematics for Machine Learning | ⬜ Planned |
-| Information Theory | ⬜ Planned |
-| Numerical Linear Algebra | ⬜ Planned |
-| Matrix Calculus | ⬜ Planned |
-| Convex Optimization | ⬜ Planned |
-
-#### Programming
-
-| Topic | Status |
-|-------|:------:|
-| Python | 🟡 In Progress |
-| Scientific Python | ⬜ Planned |
-| NumPy | ⬜ Planned |
-| Pandas | ⬜ Planned |
-| Matplotlib | ⬜ Planned |
-| PyTorch | ⬜ Planned |
-
----
-
-### 🟡 Phase 2 — AI Fundamentals
-
-| Topic | Status |
-|-------|:------:|
-| Machine Learning | ⬜ Planned |
-| Deep Learning | ⬜ Planned |
-| Natural Language Processing | ⬜ Planned |
-
----
-
-### 🔵 Phase 3 — Large Language Models
-
-| Topic | Status |
-|-------|:------:|
-| Transformer Fundamentals | ⬜ Planned |
-| GPT Architecture | ⬜ Planned |
-| Llama Architecture | ⬜ Planned |
-| Fine-Tuning | ⬜ Planned |
-| Inference & Decoding | ⬜ Planned |
-
----
-
-### 🧪 Phase 4 — Research
-
-| Goal | Status |
-|------|:------:|
-| Read Influential Papers | ⬜ Planned |
-| Reproduce Published Experiments | ⬜ Planned |
-| Implement Papers from Scratch | ⬜ Planned |
-| Develop Original Research | ⬜ Planned |
-
-> **Legend**
->
-> - ✅ Completed
-> - 🟡 In Progress
-> - ⬜ Planned
-
----
-
-# Table of Contents
-
-- [1. Who This Repository Is For](#1-who-this-repository-is-for)
-- [2. Prerequisites](#2-prerequisites)
-  - [2.1 Mathematics](#21-mathematics)
-  - [2.2 Python](#22-python)
-  - [2.3 Scientific Python](#23-scientific-python)
-  - [2.4 Machine Learning](#24-machine-learning)
-  - [2.5 Deep Learning](#25-deep-learning)
-  - [2.6 Natural Language Processing](#26-natural-language-processing)
-- [3. Mathematics](#3-mathematics)
-- [4. Programming](#4-programming)
-- [5. Machine Learning](#5-machine-learning)
-- [6. Deep Learning](#6-deep-learning)
-- [7. Natural Language Processing](#7-natural-language-processing)
-- [8. Transformer Fundamentals](#8-transformer-fundamentals)
-- [9. Large Language Models](#9-large-language-models)
-- [10. Research Paper Roadmap](#10-research-paper-roadmap)
-- [11. Research Paper Notes](#11-research-paper-notes)
-- [12. Research Paper Implementations](#12-research-paper-implementations)
-- [13. Experiment Reproductions](#13-experiment-reproductions)
-- [14. Personal Projects](#14-personal-projects)
-- [15. References](#15-references)
-
----
-
-# 1. Who This Repository Is For
-
-This repository is intended for students, self-learners, and researchers who want to learn modern AI and Large Language Models from first principles.
-
-Whether your goal is to understand the mathematics behind transformers, implement models from scratch, or reproduce influential research papers, this repository aims to provide a structured learning path.
-
----
-
-# 2. Prerequisites
-
-## 2.1 Mathematics
-
-*Coming Soon.*
-
-## 2.2 Python
-
-*Coming Soon.*
-
-## 2.3 Scientific Python
-
-*Coming Soon.*
-
-## 2.4 Machine Learning
-
-*Coming Soon.*
-
-## 2.5 Deep Learning
-
-*Coming Soon.*
-
-## 2.6 Natural Language Processing
-
-*Coming Soon.*
-
----
-
-# 3. Mathematics
-
-*Coming Soon.*
-
----
-
-# 4. Programming
-
-*Coming Soon.*
-
----
-
-# 5. Machine Learning
-
-*Coming Soon.*
-
----
-
-# 6. Deep Learning
-
-*Coming Soon.*
-
----
-
-# 7. Natural Language Processing
-
-*Coming Soon.*
-
----
-
-# 8. Transformer Fundamentals
-
-Topics will include:
-
+- Mathematics for LLMs
+- Python & Scientific Python
+- PyTorch
 - Tokenization
-- Byte Pair Encoding (BPE)
-- WordPiece
-- SentencePiece
 - Embeddings
-- Positional Encoding
 - Self-Attention
 - Multi-Head Attention
-- Feed-Forward Networks
-- Layer Normalization
-- Residual Connections
-- Encoder–Decoder Transformers
-- Decoder-Only Transformers (GPT)
-
----
-
-# 9. Large Language Models
-
-Topics will include:
-
-- GPT Family
-- BERT
+- Transformers
+- GPT
 - Llama
-- Mixture-of-Experts
-- KV Cache
-- Speculative Decoding
-- Fine-Tuning
-- RLHF
-- Preference Optimization
+- Modern LLM Components
+- Training & Fine-Tuning
+- Research Paper Reproductions
 
 ---
 
-# 10. Research Paper Roadmap
+# Repository Structure
 
-The following papers are planned in roughly chronological order.
+```text
+00 Foundations
+01 Tokenization
+02 Embeddings
+03 Attention
+04 Transformer
+05 GPT From Scratch
+06 Training
+07 Fine-Tuning
+08 Inference
+09 Modern LLM Components
+10 Models From Scratch
+11 Paper Reproductions
+```
 
-## Foundations
+---
+
+# Learning Roadmap
+
+```text
+Mathematics
+        ↓
+Python
+        ↓
+PyTorch
+        ↓
+Transformer Components
+        ↓
+GPT
+        ↓
+Modern LLMs
+        ↓
+Research Papers
+        ↓
+Paper Reproduction
+```
+
+---
+
+# Research Paper Roadmap
+
+### Foundations
 
 - Word2Vec
 - GloVe
-- Sequence to Sequence Learning with Neural Networks
-- Neural Machine Translation by Jointly Learning to Align and Translate
-- Pointer Networks
+- Seq2Seq
+- Bahdanau Attention
 
-## Transformer Era
+### Transformers
 
 - Attention Is All You Need
 - BERT
@@ -317,57 +102,46 @@ The following papers are planned in roughly chronological order.
 - GPT-2
 - GPT-3
 
-## Modern LLMs
+### Modern LLMs
 
-- PaLM
 - Llama
-- Llama 2
-- Llama 3
 - Mistral
 - Mixtral
 - DeepSeek
-- DeepSeek-V2
-- DeepSeek-V3
-- DeepSeek-R1
 
 ---
 
-# 11. Research Paper Notes
+# Why This Repository?
 
-Each paper will include:
+Most repositories do one of the following:
 
-- Summary
-- Mathematical explanations
-- Important equations
-- Key contributions
-- Personal notes
+- Explain theory only.
+- Provide code only.
+- Implement a single model.
 
----
+This repository combines all three.
 
-# 12. Research Paper Implementations
+Each topic contains:
 
-Each implementation will include:
-
+- Mathematical intuition
+- Derivations
 - PyTorch implementation
-- Code walkthrough
-- Training pipeline
-- Evaluation
-- Discussion
+- Visualizations
+- References
+- Exercises
+- Research paper connections
 
 ---
 
-# 13. Experiment Reproductions
+# Who Is This Repository For?
 
-This section will contain reproductions of published experiments, including implementation details, hyperparameters, observations, and comparisons with the original work.
-
----
-
-# 14. Personal Projects
-
-Projects built throughout this learning journey, from foundational implementations to complete LLM systems.
+- Students learning AI and LLMs
+- Software engineers transitioning into AI
+- Researchers beginning LLM research
+- Anyone interested in implementing modern LLMs from scratch
 
 ---
 
-# 15. References
+# References
 
-A curated collection of textbooks, research papers, documentation, lectures, and educational resources used throughout this repository.
+A curated collection of textbooks, lectures, documentation, and research papers accompanies every chapter.
