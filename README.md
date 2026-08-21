@@ -10,7 +10,7 @@
 
 **Computer Science Student | Aspiring AI Researcher**
 
-This repository documents my journey toward understanding and implementing modern Large Language Models (LLMs) from first principles.
+This repository documents my journey toward understanding, implementing, and reproducing modern Large Language Models (LLMs) from first principles.
 
 🌐 **GitHub:** https://github.com/yoonbot
 
@@ -18,193 +18,93 @@ This repository documents my journey toward understanding and implementing moder
 
 ---
 
-## About This Repository
+# About This Repository
 
-This repository is a long-term learning project that documents my journey from the mathematical foundations of machine learning to implementing and reproducing modern Large Language Models.
+This repository is a long-term learning project that documents my journey from the mathematical foundations of artificial intelligence to implementing and reproducing state-of-the-art Large Language Models.
 
-Rather than treating LLMs as black boxes, my goal is to understand every layer of the stack—from calculus and linear algebra to transformers, optimization, and state-of-the-art research papers.
+Rather than treating LLMs as black boxes, my goal is to understand every layer of the stack—from calculus and linear algebra to transformers, optimization, and modern research papers.
 
-Everything I learn is organized, documented, and implemented here in a reproducible manner.
+Everything I learn is documented here through notes, implementations, experiments, and reproducible projects.
 
 ---
 
-## What You'll Find
+# What You'll Find
 
 This repository will gradually include:
 
 - 📚 Textbook notes and study summaries
-- 🧮 Mathematics prerequisites for AI
-- 🐍 Python and Scientific Python notes
+- 🧮 Mathematics for Machine Learning
+- 🐍 Python & Scientific Python
 - 🔥 PyTorch tutorials and implementations
-- 📓 Jupyter & Google Colab notebooks
-- 📝 Research paper notes and mathematical derivations
-- ⚙️ Implementations of influential AI papers
-- 🤖 Large Language Models implemented from scratch
+- 📓 Jupyter / Google Colab notebooks
+- 📝 Research paper notes
+- 📐 Mathematical derivations
+- ⚙️ Research paper implementations
+- 🤖 LLM implementations from scratch
 - 🔬 Experiment reproductions
-- 📈 Personal projects and research experiments
+- 📈 Personal AI projects
 
 ---
 
-# Learning Roadmap
+# Roadmap
 
-The long-term goal of this repository is to complete the following roadmap:
-
-- [ ] Mathematics Foundations
-- [ ] Python Programming
-- [ ] Scientific Python
-- [ ] Machine Learning
-- [ ] Deep Learning
-- [ ] Natural Language Processing
-- [ ] Transformer Fundamentals
-- [ ] Large Language Models
-- [ ] Research Paper Reading
-- [ ] Research Paper Reproduction
-- [ ] State-of-the-Art LLM Implementations
-
----
-
-# Table of Contents
-
-- [1. Who This Repository Is For](#1-who-this-repository-is-for)
-- [2. Learning Roadmap](#2-learning-roadmap)
-- [3. Prerequisites](#3-prerequisites)
-  - [3.1 Mathematics](#31-mathematics)
-  - [3.2 Python](#32-python)
-  - [3.3 Scientific Python](#33-scientific-python)
-  - [3.4 Machine Learning](#34-machine-learning)
-  - [3.5 Deep Learning](#35-deep-learning)
-  - [3.6 Natural Language Processing](#36-natural-language-processing)
-- [4. Mathematics](#4-mathematics)
-  - [4.1 Calculus](#41-calculus)
-  - [4.2 Linear Algebra](#42-linear-algebra)
-  - [4.3 Probability & Statistics](#43-probability--statistics)
-  - [4.4 Mathematics for Machine Learning](#44-mathematics-for-machine-learning)
-  - [4.5 Information Theory](#45-information-theory)
-  - [4.6 Numerical Linear Algebra](#46-numerical-linear-algebra)
-  - [4.7 Matrix Calculus](#47-matrix-calculus)
-  - [4.8 Convex Optimization](#48-convex-optimization)
-- [5. Programming](#5-programming)
-  - [5.1 Python](#51-python)
-  - [5.2 NumPy](#52-numpy)
-  - [5.3 Pandas](#53-pandas)
-  - [5.4 Matplotlib](#54-matplotlib)
-  - [5.5 PyTorch](#55-pytorch)
-- [6. Machine Learning](#6-machine-learning)
-- [7. Deep Learning](#7-deep-learning)
-- [8. Natural Language Processing](#8-natural-language-processing)
-- [9. Transformer Fundamentals](#9-transformer-fundamentals)
-  - [9.1 Tokenization](#91-tokenization)
-  - [9.2 Embeddings](#92-embeddings)
-  - [9.3 Positional Encoding](#93-positional-encoding)
-  - [9.4 Self-Attention](#94-self-attention)
-  - [9.5 Multi-Head Attention](#95-multi-head-attention)
-  - [9.6 Encoder–Decoder Transformers](#96-encoderdecoder-transformers)
-  - [9.7 Decoder-Only Transformers (GPT)](#97-decoder-only-transformers-gpt)
-- [10. Large Language Models](#10-large-language-models)
-  - [10.1 GPT Family](#101-gpt-family)
-  - [10.2 Llama Family](#102-llama-family)
-  - [10.3 Mixture-of-Experts](#103-mixture-of-experts)
-  - [10.4 Inference & Decoding](#104-inference--decoding)
-  - [10.5 Fine-Tuning](#105-fine-tuning)
-- [11. Research Paper Roadmap](#11-research-paper-roadmap)
-- [12. Research Paper Notes](#12-research-paper-notes)
-- [13. Research Paper Implementations](#13-research-paper-implementations)
-- [14. Experiment Reproductions](#14-experiment-reproductions)
-- [15. Personal Projects](#15-personal-projects)
-- [16. References](#16-references)
-
----
-
-# 1. Who This Repository Is For
-
-This repository is intended for anyone who wants to learn modern AI and Large Language Models from first principles.
-
-It is especially aimed at students and self-learners who want to build a strong mathematical foundation before reading and implementing research papers.
-
----
-
-# 2. Learning Roadmap
-
-This repository follows a structured roadmap designed to build the knowledge required to understand, implement, and reproduce modern Large Language Models (LLMs).
-
-The journey progresses from mathematical foundations to reproducing state-of-the-art research papers.
+This repository follows a structured roadmap that progresses from mathematical foundations to AI research.
 
 ```text
-Mathematics
+Phase 1 — Foundations
 │
-├── Calculus
-├── Linear Algebra
-├── Probability & Statistics
-├── Mathematics for Machine Learning
-├── Information Theory
-├── Numerical Linear Algebra
-├── Matrix Calculus
-└── Convex Optimization
-        │
-        ▼
-Programming
+├── Mathematics
+│   ├── Calculus
+│   ├── Linear Algebra
+│   ├── Probability & Statistics
+│   ├── Mathematics for Machine Learning
+│   ├── Information Theory
+│   ├── Numerical Linear Algebra
+│   ├── Matrix Calculus
+│   └── Convex Optimization
 │
-├── Python
-├── Scientific Python
-├── NumPy
-├── Pandas
-├── Matplotlib
-└── PyTorch
-        │
-        ▼
-Machine Learning
+├── Programming
+│   ├── Python
+│   ├── Scientific Python
+│   ├── NumPy
+│   ├── Pandas
+│   ├── Matplotlib
+│   └── PyTorch
 │
-├── Supervised Learning
-├── Unsupervised Learning
-├── Optimization
-├── Neural Networks
-└── Representation Learning
-        │
-        ▼
-Deep Learning
+▼
+Phase 2 — AI Fundamentals
 │
-├── Feedforward Networks
-├── CNNs
-├── RNNs
-├── LSTMs
-└── Attention
-        │
-        ▼
-Natural Language Processing
+├── Machine Learning
+├── Deep Learning
+└── Natural Language Processing
 │
-├── Text Processing
+▼
+Phase 3 — Large Language Models
+│
 ├── Tokenization
-├── Word Embeddings
-├── Sequence Models
-└── Transformers
-        │
-        ▼
-Large Language Models
-│
+├── Embeddings
+├── Attention
+├── Transformers
 ├── GPT
-├── BERT
 ├── Llama
-├── Mixture-of-Experts
-├── Inference
-└── Fine-Tuning
-        │
-        ▼
-Research Papers
+├── Fine-Tuning
+└── Inference
 │
-├── Read
-├── Understand
-├── Reproduce
-└── Improve
-        │
-        ▼
-Research Projects
+▼
+Phase 4 — Research
+│
+├── Read Research Papers
+├── Understand Mathematical Derivations
+├── Reproduce Published Results
+├── Implement Papers From Scratch
+└── Develop Original Research
 ```
 
----
+## Progress
 
-## Learning Progress
+### Phase 1 — Foundations
 
-### Mathematics
+#### Mathematics
 
 - [ ] Calculus
 - [ ] Linear Algebra
@@ -215,7 +115,7 @@ Research Projects
 - [ ] Matrix Calculus
 - [ ] Convex Optimization
 
-### Programming
+#### Programming
 
 - [ ] Python
 - [ ] Scientific Python
@@ -224,15 +124,21 @@ Research Projects
 - [ ] Matplotlib
 - [ ] PyTorch
 
-### Artificial Intelligence
+### Phase 2 — AI Fundamentals
 
 - [ ] Machine Learning
 - [ ] Deep Learning
 - [ ] Natural Language Processing
-- [ ] Transformer Fundamentals
-- [ ] Large Language Models
 
-### Research
+### Phase 3 — Large Language Models
+
+- [ ] Transformer Fundamentals
+- [ ] GPT Architecture
+- [ ] Llama Architecture
+- [ ] Fine-Tuning
+- [ ] Inference & Decoding
+
+### Phase 4 — Research
 
 - [ ] Read influential papers
 - [ ] Reproduce published experiments
@@ -241,162 +147,156 @@ Research Projects
 
 ---
 
-# 3. Prerequisites
+# Table of Contents
 
-## 3.1 Mathematics
+- [1. Who This Repository Is For](#1-who-this-repository-is-for)
+- [2. Prerequisites](#2-prerequisites)
+  - [2.1 Mathematics](#21-mathematics)
+  - [2.2 Python](#22-python)
+  - [2.3 Scientific Python](#23-scientific-python)
+  - [2.4 Machine Learning](#24-machine-learning)
+  - [2.5 Deep Learning](#25-deep-learning)
+  - [2.6 Natural Language Processing](#26-natural-language-processing)
+- [3. Mathematics](#3-mathematics)
+- [4. Programming](#4-programming)
+- [5. Machine Learning](#5-machine-learning)
+- [6. Deep Learning](#6-deep-learning)
+- [7. Natural Language Processing](#7-natural-language-processing)
+- [8. Transformer Fundamentals](#8-transformer-fundamentals)
+- [9. Large Language Models](#9-large-language-models)
+- [10. Research Paper Roadmap](#10-research-paper-roadmap)
+- [11. Research Paper Notes](#11-research-paper-notes)
+- [12. Research Paper Implementations](#12-research-paper-implementations)
+- [13. Experiment Reproductions](#13-experiment-reproductions)
+- [14. Personal Projects](#14-personal-projects)
+- [15. References](#15-references)
+
+---
+
+# 1. Who This Repository Is For
+
+This repository is intended for students, self-learners, and researchers who want to learn modern AI and Large Language Models from first principles.
+
+Whether your goal is to understand the mathematics behind transformers, implement models from scratch, or reproduce influential research papers, this repository aims to provide a structured learning path.
+
+---
+
+# 2. Prerequisites
+
+## 2.1 Mathematics
 
 *Coming Soon.*
 
-## 3.2 Python
+## 2.2 Python
 
 *Coming Soon.*
 
-## 3.3 Scientific Python
+## 2.3 Scientific Python
 
 *Coming Soon.*
 
-## 3.4 Machine Learning
+## 2.4 Machine Learning
 
 *Coming Soon.*
 
-## 3.5 Deep Learning
+## 2.5 Deep Learning
 
 *Coming Soon.*
 
-## 3.6 Natural Language Processing
+## 2.6 Natural Language Processing
 
 *Coming Soon.*
 
 ---
 
-# 4. Mathematics
-
-## 4.1 Calculus
-
-*Coming Soon.*
-
-## 4.2 Linear Algebra
-
-*Coming Soon.*
-
-## 4.3 Probability & Statistics
-
-*Coming Soon.*
-
-## 4.4 Mathematics for Machine Learning
-
-*Coming Soon.*
-
-## 4.5 Information Theory
-
-*Coming Soon.*
-
-## 4.6 Numerical Linear Algebra
-
-*Coming Soon.*
-
-## 4.7 Matrix Calculus
-
-*Coming Soon.*
-
-## 4.8 Convex Optimization
+# 3. Mathematics
 
 *Coming Soon.*
 
 ---
 
-# 5. Programming
-
-## 5.1 Python
-
-*Coming Soon.*
-
-## 5.2 NumPy
-
-*Coming Soon.*
-
-## 5.3 Pandas
-
-*Coming Soon.*
-
-## 5.4 Matplotlib
-
-*Coming Soon.*
-
-## 5.5 PyTorch
+# 4. Programming
 
 *Coming Soon.*
 
 ---
 
-# 6. Machine Learning
+# 5. Machine Learning
 
 *Coming Soon.*
 
 ---
 
-# 7. Deep Learning
+# 6. Deep Learning
 
 *Coming Soon.*
 
 ---
 
-# 8. Natural Language Processing
+# 7. Natural Language Processing
 
 *Coming Soon.*
 
 ---
 
-# 9. Transformer Fundamentals
+# 8. Transformer Fundamentals
 
-## 9.1 Tokenization
+Topics will include:
 
-## 9.2 Embeddings
-
-## 9.3 Positional Encoding
-
-## 9.4 Self-Attention
-
-## 9.5 Multi-Head Attention
-
-## 9.6 Encoder–Decoder Transformers
-
-## 9.7 Decoder-Only Transformers (GPT)
-
-*Coming Soon.*
-
----
-
-# 10. Large Language Models
-
-## 10.1 GPT Family
-
-## 10.2 Llama Family
-
-## 10.3 Mixture-of-Experts
-
-## 10.4 Inference & Decoding
-
-## 10.5 Fine-Tuning
-
-*Coming Soon.*
+- Tokenization
+- Byte Pair Encoding (BPE)
+- WordPiece
+- SentencePiece
+- Embeddings
+- Positional Encoding
+- Self-Attention
+- Multi-Head Attention
+- Feed-Forward Networks
+- Layer Normalization
+- Residual Connections
+- Encoder–Decoder Transformers
+- Decoder-Only Transformers (GPT)
 
 ---
 
-# 11. Research Paper Roadmap
+# 9. Large Language Models
 
-The following papers are planned in roughly chronological order:
+Topics will include:
+
+- GPT Family
+- BERT
+- Llama
+- Mixture-of-Experts
+- KV Cache
+- Speculative Decoding
+- Fine-Tuning
+- RLHF
+- Preference Optimization
+
+---
+
+# 10. Research Paper Roadmap
+
+The following papers are planned in roughly chronological order.
+
+## Foundations
 
 - Word2Vec
 - GloVe
 - Sequence to Sequence Learning with Neural Networks
 - Neural Machine Translation by Jointly Learning to Align and Translate
 - Pointer Networks
+
+## Transformer Era
+
 - Attention Is All You Need
 - BERT
 - GPT
 - GPT-2
 - GPT-3
+
+## Modern LLMs
+
 - PaLM
 - Llama
 - Llama 2
@@ -410,36 +310,42 @@ The following papers are planned in roughly chronological order:
 
 ---
 
-# 12. Research Paper Notes
+# 11. Research Paper Notes
 
 Each paper will include:
 
 - Summary
-- Mathematical derivations
-- Key ideas
-- Implementation notes
-- References
+- Mathematical explanations
+- Important equations
+- Key contributions
+- Personal notes
 
 ---
 
-# 13. Research Paper Implementations
+# 12. Research Paper Implementations
 
-PyTorch implementations of influential research papers from scratch.
+Each implementation will include:
 
----
-
-# 14. Experiment Reproductions
-
-Reproductions of published experiments with implementation details, training logs, observations, and analysis.
-
----
-
-# 15. Personal Projects
-
-Projects built while learning modern AI and LLMs.
+- PyTorch implementation
+- Code walkthrough
+- Training pipeline
+- Evaluation
+- Discussion
 
 ---
 
-# 16. References
+# 13. Experiment Reproductions
 
-A curated collection of textbooks, papers, documentation, lectures, and other learning resources used throughout this journey.
+This section will contain reproductions of published experiments, including implementation details, hyperparameters, observations, and comparisons with the original work.
+
+---
+
+# 14. Personal Projects
+
+Projects built throughout this learning journey, from foundational implementations to complete LLM systems.
+
+---
+
+# 15. References
+
+A curated collection of textbooks, research papers, documentation, lectures, and educational resources used throughout this repository.
