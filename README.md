@@ -2,6 +2,8 @@
 
 # Learn LLMs From Scratch
 
+</div>
+
 <div align="center">
 
 ### 🚧 Currently Under Active Development
