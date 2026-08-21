@@ -2,9 +2,9 @@
 
 # Learn LLMs From Scratch
 
-### Build Modern Large Language Models from First Principles
+### Build, Understand, and Reproduce Modern Large Language Models
 
-A comprehensive educational repository dedicated to understanding, implementing, and reproducing modern Large Language Models (LLMs) from scratch.
+A comprehensive educational repository for learning the theory, mathematics, implementation, and research behind modern Large Language Models (LLMs).
 
 ![Python](https://img.shields.io/badge/Python-3.12+-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Latest-red)
@@ -14,38 +14,36 @@ A comprehensive educational repository dedicated to understanding, implementing,
 
 ---
 
-# Overview
+## Overview
 
-Large Language Models have rapidly transformed artificial intelligence, yet many learning resources either focus heavily on theory or provide implementations with little explanation.
+Large Language Models have transformed artificial intelligence, yet understanding **how they actually work** remains challenging.
 
-This repository aims to bridge that gap by combining mathematical foundations, PyTorch implementations, and research paper studies into a single structured learning resource.
+This repository is a long-term educational project dedicated to building modern LLMs from first principles through mathematical foundations, PyTorch implementations, and research paper studies.
 
-The long-term goal is to understand **why** modern LLMs work—not just how to use them.
+Rather than treating models as black boxes, the goal is to understand every major component—from tokenization and self-attention to complete GPT- and Llama-style architectures—and to reproduce influential research papers along the way.
 
 ---
 
-# Repository Goals
+## Repository Goals
 
-This repository aims to:
-
-- 📚 Build a strong mathematical foundation for LLMs
-- 🐍 Learn Python, Scientific Python, and PyTorch
+- 📚 Learn the mathematics behind modern LLMs
+- 🐍 Master Python, Scientific Python, and PyTorch
 - ⚙️ Implement transformer components from scratch
-- 🤖 Build GPT and Llama-style models
-- 📄 Study and summarize influential research papers
+- 🤖 Build GPT and Llama-style language models
+- 📄 Study influential research papers
 - 🧪 Reproduce published experiments
-- 🔬 Develop original experiments inspired by modern LLM research
+- 🔬 Conduct original research-inspired experiments
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 learn-llms-from-scratch/
 
 ├── foundations/
-├── concepts/
-├── models/
+├── implementations/
+├── architectures/
 ├── papers/
 ├── experiments/
 ├── src/
@@ -56,30 +54,35 @@ learn-llms-from-scratch/
 
 ---
 
-# Prerequisites
+## Prerequisites
 
-This repository assumes basic familiarity with:
+This repository assumes familiarity with:
 
-- Python programming
-- Linear Algebra
+- Basic Python programming
 - Calculus
+- Linear Algebra
 
-A complete prerequisite roadmap is available in **[ROADMAP.md](ROADMAP.md)**.
+A detailed learning roadmap is available in **[ROADMAP.md](ROADMAP.md)**.
 
 ---
 
-# Getting Started
+## Installation
 
-## Clone the repository
+### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/learn-llms-from-scratch.git
+git clone https://github.com/<your-username>/learn-llms-from-scratch.git
 cd learn-llms-from-scratch
 ```
 
-## Create a virtual environment
+### Option 1 — Conda (Recommended)
 
-### Using `venv`
+```bash
+conda env create -f environment.yml
+conda activate llms-from-scratch
+```
+
+### Option 2 — Virtual Environment
 
 ```bash
 python -m venv .venv
@@ -97,14 +100,7 @@ source .venv/bin/activate
 .venv\Scripts\activate
 ```
 
-### Or using Conda
-
-```bash
-conda env create -f environment.yml
-conda activate llms-from-scratch
-```
-
-## Install dependencies
+Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -112,7 +108,7 @@ pip install -r requirements.txt
 
 ---
 
-# Documentation
+## Documentation
 
 | Document | Description |
 |----------|-------------|
@@ -122,16 +118,16 @@ pip install -r requirements.txt
 
 ---
 
-# Topics Covered
+## Topics
 
-## Foundations
+### Foundations
 
 - Mathematics for Machine Learning
 - Python
 - Scientific Python
 - PyTorch
 
-## Core Concepts
+### LLM Components
 
 - Tokenization
 - Embeddings
@@ -139,27 +135,24 @@ pip install -r requirements.txt
 - Multi-Head Attention
 - Transformers
 
-## Large Language Models
+### Architectures
 
 - GPT
 - Llama
-- Modern LLM Architectures
-- Training
-- Fine-Tuning
-- Inference
+- Modern LLM Components
 
-## Research
+### Research
 
-- Research paper summaries
-- Mathematical derivations
-- Paper implementations
-- Experiment reproductions
+- Paper Summaries
+- Mathematical Derivations
+- Paper Implementations
+- Experiment Reproductions
 
 ---
 
-# Inspiration
+## Inspiration
 
-This repository is inspired by the educational work of the AI community, including:
+This repository has been inspired by the educational work of the AI community, including:
 
 - Sebastian Raschka — *Build a Large Language Model (From Scratch)*
 - Andrej Karpathy — *nanoGPT*
@@ -167,10 +160,11 @@ This repository is inspired by the educational work of the AI community, includi
 - Fareed Khan — *train-llm-from-scratch*
 - Hugging Face — *Transformers*
 
-The purpose of this repository is not to replicate these projects, but to develop my own understanding while documenting the learning process through implementations, experiments, and research paper studies.
+This repository is an original educational project documenting my own understanding through implementations, experiments, and research paper studies.
 
 ---
 
-# License
+## License
 
-This project is released under the MIT License.
+Released under the MIT License.
+
