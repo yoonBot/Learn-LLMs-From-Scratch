@@ -5,7 +5,7 @@
 <!-- omit in toc -->
 # Learn-LLMs-From-Scratch (Currently Updating Real-Time)
 
-**I am Looking for a PhD position in AI**. [GitHub](https://github.com/FareedKhan-dev)
+**I am Looking for a PhD position in AI**. [GitHub](https://github.com/yoonbot)
 
 </div>
 I am a computer science student who just began studying prerequisites for learning LLMs. Here, I record my journey that takes me from learning Calculus and Linear Algebra Prequisites to implementing research papers and journals that inspired LLM principals, then finally implementing research papers that inspired front-tier LLMs. I will upload every form of resource... from textbooks to colab notebooks. 
