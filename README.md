@@ -121,7 +121,119 @@ It is especially aimed at students and self-learners who want to build a strong 
 
 # 2. Learning Roadmap
 
-*Coming Soon.*
+This repository follows a structured roadmap designed to build the knowledge required to understand, implement, and reproduce modern Large Language Models (LLMs).
+
+The journey progresses from mathematical foundations to reproducing state-of-the-art research papers.
+
+```text
+Mathematics
+│
+├── Calculus
+├── Linear Algebra
+├── Probability & Statistics
+├── Mathematics for Machine Learning
+├── Information Theory
+├── Numerical Linear Algebra
+├── Matrix Calculus
+└── Convex Optimization
+        │
+        ▼
+Programming
+│
+├── Python
+├── Scientific Python
+├── NumPy
+├── Pandas
+├── Matplotlib
+└── PyTorch
+        │
+        ▼
+Machine Learning
+│
+├── Supervised Learning
+├── Unsupervised Learning
+├── Optimization
+├── Neural Networks
+└── Representation Learning
+        │
+        ▼
+Deep Learning
+│
+├── Feedforward Networks
+├── CNNs
+├── RNNs
+├── LSTMs
+└── Attention
+        │
+        ▼
+Natural Language Processing
+│
+├── Text Processing
+├── Tokenization
+├── Word Embeddings
+├── Sequence Models
+└── Transformers
+        │
+        ▼
+Large Language Models
+│
+├── GPT
+├── BERT
+├── Llama
+├── Mixture-of-Experts
+├── Inference
+└── Fine-Tuning
+        │
+        ▼
+Research Papers
+│
+├── Read
+├── Understand
+├── Reproduce
+└── Improve
+        │
+        ▼
+Research Projects
+```
+
+---
+
+## Learning Progress
+
+### Mathematics
+
+- [ ] Calculus
+- [ ] Linear Algebra
+- [ ] Probability & Statistics
+- [ ] Mathematics for Machine Learning
+- [ ] Information Theory
+- [ ] Numerical Linear Algebra
+- [ ] Matrix Calculus
+- [ ] Convex Optimization
+
+### Programming
+
+- [ ] Python
+- [ ] Scientific Python
+- [ ] NumPy
+- [ ] Pandas
+- [ ] Matplotlib
+- [ ] PyTorch
+
+### Artificial Intelligence
+
+- [ ] Machine Learning
+- [ ] Deep Learning
+- [ ] Natural Language Processing
+- [ ] Transformer Fundamentals
+- [ ] Large Language Models
+
+### Research
+
+- [ ] Read influential papers
+- [ ] Reproduce published experiments
+- [ ] Implement papers from scratch
+- [ ] Develop original research ideas
 
 ---
 
