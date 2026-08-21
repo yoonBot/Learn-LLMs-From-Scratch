@@ -4,7 +4,7 @@
 
 ### Build Modern Large Language Models from First Principles
 
-A comprehensive educational repository for understanding, implementing, and reproducing modern Large Language Models from scratch.
+A comprehensive educational repository for understanding, implementing, and reproducing modern Large Language Models (LLMs) from scratch.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Latest-red)
@@ -14,134 +14,94 @@ A comprehensive educational repository for understanding, implementing, and repr
 
 ---
 
-# Overview
+## Overview
 
-This repository provides a structured path for learning how modern Large Language Models (LLMs) work, from mathematical foundations to implementing state-of-the-art architectures.
+This repository documents my journey toward understanding modern Large Language Models from first principles.
 
-Rather than treating LLMs as black boxes, every component is built from first principles and explained with mathematical derivations, PyTorch implementations, and research paper references.
+Rather than treating LLMs as black boxes, this project focuses on understanding **why** they work by studying the underlying mathematics, implementing every major component from scratch, reproducing influential research papers, and experimenting with modern architectures.
 
-The ultimate goal is to bridge the gap between textbooks, research papers, and real-world implementations.
+The long-term objective is to bridge the gap between textbooks, research papers, and real-world implementations.
 
 ---
 
-# What You'll Learn
+## Repository Goals
 
-This repository covers:
+- 📚 Learn the mathematical foundations behind LLMs
+- 🐍 Master Python, Scientific Python, and PyTorch
+- ⚙️ Implement every major transformer component from scratch
+- 🤖 Build GPT and Llama-style models
+- 📄 Read and reproduce influential research papers
+- 🧪 Conduct original experiments inspired by modern LLM research
 
-- Mathematics for LLMs
+---
+
+## Repository Structure
+
+```text
+learn-llms-from-scratch/
+
+├── 00_foundations/
+├── 01_tokenization/
+├── 02_embeddings/
+├── 03_attention/
+├── 04_transformer/
+├── 05_gpt_from_scratch/
+├── 06_training/
+├── 07_finetuning/
+├── 08_inference/
+├── 09_modern_llm_components/
+├── 10_models_from_scratch/
+├── 11_paper_reproductions/
+├── experiments/
+├── notebooks/
+├── src/
+└── docs/
+```
+
+---
+
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| 📖 [ROADMAP.md](ROADMAP.md) | Complete learning and research roadmap |
+| 📚 [REFERENCES.md](REFERENCES.md) | Textbooks, papers, and learning resources |
+| 📄 [PAPERS.md](PAPERS.md) | Research paper implementation roadmap |
+
+---
+
+## Topics Covered
+
+- Mathematics for Machine Learning
 - Python & Scientific Python
 - PyTorch
 - Tokenization
 - Embeddings
 - Self-Attention
-- Multi-Head Attention
 - Transformers
 - GPT
 - Llama
 - Modern LLM Components
-- Training & Fine-Tuning
+- Training
+- Fine-Tuning
+- Inference
 - Research Paper Reproductions
 
 ---
 
-# Repository Structure
+## Inspiration
 
-```text
-00 Foundations
-01 Tokenization
-02 Embeddings
-03 Attention
-04 Transformer
-05 GPT From Scratch
-06 Training
-07 Fine-Tuning
-08 Inference
-09 Modern LLM Components
-10 Models From Scratch
-11 Paper Reproductions
-```
+This repository is inspired by educational projects such as:
+
+- Sebastian Raschka's *Build a Large Language Model (From Scratch)*
+- Andrej Karpathy's *nanoGPT*
+- Andrej Karpathy's *llm.c*
+- Fareed Khan's *train-llm-from-scratch*
+
+The goal is not to replicate these projects, but to document my own understanding while building increasingly capable LLM implementations.
 
 ---
 
-# Learning Roadmap
+## License
 
-```text
-Mathematics
-        ↓
-Python
-        ↓
-PyTorch
-        ↓
-Transformer Components
-        ↓
-GPT
-        ↓
-Modern LLMs
-        ↓
-Research Papers
-        ↓
-Paper Reproduction
-```
-
----
-
-# Research Paper Roadmap
-
-### Foundations
-
-- Word2Vec
-- GloVe
-- Seq2Seq
-- Bahdanau Attention
-
-### Transformers
-
-- Attention Is All You Need
-- BERT
-- GPT
-- GPT-2
-- GPT-3
-
-### Modern LLMs
-
-- Llama
-- Mistral
-- Mixtral
-- DeepSeek
-
----
-
-# Why This Repository?
-
-Most repositories do one of the following:
-
-- Explain theory only.
-- Provide code only.
-- Implement a single model.
-
-This repository combines all three.
-
-Each topic contains:
-
-- Mathematical intuition
-- Derivations
-- PyTorch implementation
-- Visualizations
-- References
-- Exercises
-- Research paper connections
-
----
-
-# Who Is This Repository For?
-
-- Students learning AI and LLMs
-- Software engineers transitioning into AI
-- Researchers beginning LLM research
-- Anyone interested in implementing modern LLMs from scratch
-
----
-
-# References
-
-A curated collection of textbooks, lectures, documentation, and research papers accompanies every chapter.
+This project is released under the MIT License.
