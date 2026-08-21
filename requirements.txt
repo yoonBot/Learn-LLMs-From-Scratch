@@ -1,0 +1,83 @@
+# ============================================================
+# Learn LLMs From Scratch
+#
+# Core dependencies for notebooks, implementations,
+# experiments, and model training.
+#
+# Python >= 3.12 recommended
+# ============================================================
+
+# --------------------------
+# Scientific Computing
+# --------------------------
+numpy>=2.0
+scipy>=1.14
+pandas>=2.2
+matplotlib>=3.9
+
+# --------------------------
+# Jupyter
+# --------------------------
+jupyterlab>=4.2
+notebook>=7.2
+ipykernel>=6.29
+
+# --------------------------
+# Machine Learning
+# --------------------------
+scikit-learn>=1.6
+
+# --------------------------
+# Deep Learning
+# --------------------------
+torch>=2.6
+torchvision>=0.21
+torchaudio>=2.6
+
+# --------------------------
+# Progress Bars
+# --------------------------
+tqdm>=4.67
+
+# --------------------------
+# Tokenization & Datasets
+# --------------------------
+tokenizers>=0.21
+datasets>=3.2
+
+# --------------------------
+# Hugging Face Ecosystem
+# --------------------------
+transformers>=4.48
+accelerate>=1.2
+safetensors>=0.5
+
+# --------------------------
+# Evaluation
+# --------------------------
+evaluate>=0.4
+
+# --------------------------
+# Visualization
+# --------------------------
+seaborn>=0.13
+plotly>=6.0
+
+# --------------------------
+# Utilities
+# --------------------------
+pyyaml>=6.0
+requests>=2.32
+rich>=13.9
+
+# --------------------------
+# Formatting / Linting
+# --------------------------
+black>=24.10
+isort>=5.13
+ruff>=0.9
+
+# --------------------------
+# Testing
+# --------------------------
+pytest>=8.3
