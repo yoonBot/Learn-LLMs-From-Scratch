@@ -1,0 +1,10 @@
+data/
+├── .gitkeep
+└── README.md
+
+datasets/
+├── .gitkeep
+└── README.md
+
+checkpoints/
+└── .gitkeep
