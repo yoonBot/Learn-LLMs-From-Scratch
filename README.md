@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="tumblr_nkt7xnOBnd1r2en1ko1_500.gif" width="700">
+</p>
+
 <div align="center">
 
 # Learn LLMs From Scratch
