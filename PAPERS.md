@@ -110,26 +110,39 @@ Reasoning and post-training.
 
 ---
 
+# Note-Taking Workflow
+
+Paper notes use a progressive four-pass workflow so the amount of effort matches each paper's importance:
+
+1. **Triage** the problem, main contribution, evidence, and relevance.
+2. **Understand** the method, important equations, and experimental design.
+3. **Challenge** assumptions, ablations, failure modes, and reproducibility.
+4. **Extend** the paper into research questions or feasible experiments.
+
+Copy [`11_papers/_templates/paper/`](11_papers/_templates/paper/) for a deep reading. For literature surveys, start from [`11_papers/_templates/quick_notes.md`](11_papers/_templates/quick_notes.md). See [`11_papers/README.md`](11_papers/README.md) for file responsibilities and conventions.
+
+---
+
 # Repository Structure
 
 Each paper will have its own directory.
 
 ```text
-papers/
+11_papers/
 
 ├── 2013_word2vec/
 │   ├── README.md
-│   ├── notes.md
+│   ├── summary.md
 │   ├── equations.md
-│   ├── implementation/
+│   ├── code/
 │   ├── experiments/
 │   └── references.md
 │
 ├── 2017_attention_is_all_you_need/
 │   ├── README.md
-│   ├── notes.md
+│   ├── summary.md
 │   ├── equations.md
-│   ├── implementation/
+│   ├── code/
 │   ├── experiments/
 │   └── references.md
 │
